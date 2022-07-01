@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>GITS AME</title>
+   <link href="/app/201806121305/gitsforum/SiteAssets/GITSHome1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/app/201806121305/gitsforum/SiteAssets/GITSForumMasterCSS/GITSForumMasterStyles1.css" rel="stylesheet">
+   <style>
+   #pageTitle{
+	display:none;
+}
+   </style>
+  </head>
+  <body on>
+<div class="titlebar">
+<div class="row">
+  <div class="col-md-12">
+  <div class="pull-left">
+
+   <h4 class=""><span class="glyphicon glyphicon-home"></span> GITS Forum</h4>
+  </div> 
+  <div class="clearfix"></div>
+  </div>
+</div>
+</div>
+
+<div class="container-fluid cntfluid">
+<div class="spacertwo"></div>
+<div class="row">
+<div class="col-sm-12 pad">
+<div class="col-sm-8 padrt0px"><!--Started Corosel-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Wrapper for slides -->
+<div id="HomeCorosel"></div>
+<div class="controllers col-sm-12 col-xs-12">
+<!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol> 
+</div>
+</div>
+</div>
+<!--End Corosel-->
+<div class="col-sm-4">
+<ul class="list-unstyled unstyled">
+    <li><a  href="/app/201806121305/gitsforum/SitePages/Knowledge%20Center.aspx"><span>Knowledge Center</span><small>(Latest Articles,Videos, Discussions,Documents)</small>
+	<span class="bgsprite sprite1"></span>
+	</a></li>
+	<li><a href="/app/201806121305/gitsforum/SitePages/Leadership%20Connect.aspx"><span>Leadership Connect</span><small>(Latest Videos, Discussions,Announcements,AMA)</small>
+	<span class="bgsprite sprite2"></span>
+	</a></li>
+	<li><a href="/app/201806121305/gitsforum/SitePages/Team%20Collaboration.aspx"><span>Team Collaboration</span><small>(Latest Discussions,Trending Documents,Essential Links,Blogs)</small>
+	<span class="bgsprite sprite3"></span>
+	</a></li>
+	<li><a href="/app/201806121305/gitsforum/SitePages/Wall%20of%20Fame.aspx"><span>Wall Of Fame</span><small>(Awards)</small>
+	<span class="bgsprite sprite4"></span>
+	</a>
+	<!--<a href="/app/201806121305/gitsforum/SitePages/Birthdays.aspx">
+	<span>Birthdays</span>
+	<span class="bgsprite sprite5"></span>
+	</a>-->
+	</li>
+
+</ul>
+</div>
+</div>
+</div>
+<div class="spacertwo"></div>
+<div class="row homerow">
+<div class="col-sm-8 pad">
+<div class="col-sm-6 padrt0px">
+<div class="boxone videos"><div class="headerlist"><div class="pull-left"><span class="box-heading"><span class="glyphicon glyphicon-facetime-video"></span> Videos</span></div>
+	<div class="pull-right"><a href="/app/201806121305/gitsforum/SitePages/HomeVideos.aspx">View all</a></div><div class="clearfix"></div></div>
+	<ul  id="HomeAllVideos" class="list-unstyled listunstyle"></ul>
+<!--<div id="HomeAllVideos"></div>-->
+</div>
+ </div>
+<div class="col-sm-6 padrt0px">
+<div id="HomeNews"></div>
+</div>
+
+
+<div class="col-sm-6 padrt0px">
+<div class="boxone ullist"><div class="headerlist"><div class="pull-left"><span class="box-heading"><span class="glyphicon glyphicon-file"></span> Trending Documents</span></div>
+		 <div class="pull-right"><a href="/app/201806121305/gitsforum/SitePages/Home%20Documents.aspx">View all</a></div><div class="clearfix"></div></div>
+		 <ul id="HomeDocuments" class="list-unstyled listunstyle"></ul>
+</div>
+<!--<div id="HomeDocuments"></div>-->
+</div>
+<div class="col-sm-6 padrt0px">
+<div id="HomeEssentialLinks"></div>
+</div>
+</div>
+<div class="col-sm-4">
+<div id="HomeProjectDetails" class="hgt500px"></div>
+</div>
+</div>
+<div class="spacertwo"></div>
+<div class="row"  style="display:none;">
+<div class="col-sm-12">
+<div class="col-sm-4 padltrt10px">
+<div class="" id="innercorosel"></div>
+</div>
+<div class="col-sm-4 padltrt10px">
+<div id="TCLatestAnnouncement"></div>
+</div>
+<div class="col-sm-4 padltrt10px">
+<div id="TCLatestVideos"></div>
+</div>
+
+</div>
+</div>
+<!--This is new Content-->
+<div class="spacertwo"></div>
+  <div class="row"  style="display:none;">
+  <div class="col-sm-12">
+    <div class="col-sm-9 pad" id="HomePageTiles"></div>
+    <div class="col-sm-3 padltrt10px">
+<div class="" id="HomeSpotlightAwards"></div>
+</div>
+      </div>
+       </div>
+	  </div>
+	  <div class="loader"  id="HomeLoader" >
+<div class="lds-spinner">
+<div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+</div>
+</div> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/app/201806121305/gitsforum/SiteAssets/AMA/js/bootstrap.min.js"></script>
+        <script src="/app/201806121305/gitsforum/SiteAssets/GITSHome1/GITSHome/GITSForumCommon.js"></script>
+<script src="/app/201806121305/gitsforum/SiteAssets/GITSHome1/GITSHome/Home2.js"></script>
+ <script>
+	$(window).load(function () {
+              $("#HomeLoader").hide();
+        }); 
+	</script>
+  </body>
+</html>
